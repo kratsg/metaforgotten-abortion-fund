@@ -1,4 +1,4 @@
-SetProgress(1481.25, 15)
+SetProgress(3052, 18)
 
 function SetProgress(now, ndonations)
 {
