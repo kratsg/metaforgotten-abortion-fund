@@ -10,7 +10,7 @@ function SetProgress(now, ndonations)
         document.getElementById('countdown').innerHTML = '0';
         return;
     }
-    document.getElementById('now').innerHTML = now.toFixed(2);
+    document.getElementById('now').innerHTML = '$' + now.toFixed(2);
     document.getElementById('percentage').innerHTML = percentage.toFixed(0) + '%';
     document.getElementById('ndonations').innerHTML = ndonations;
 }
