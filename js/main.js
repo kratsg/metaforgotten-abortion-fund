@@ -13,4 +13,5 @@ function SetProgress(now, ndonations)
     document.getElementById('now').innerHTML = '$' + now.toFixed(2);
     document.getElementById('percentage').innerHTML = percentage.toFixed(0) + '%';
     document.getElementById('ndonations').innerHTML = ndonations;
+    document.getElementById('progress').style.width = percentage.toFixed(0) + '%';
 }
